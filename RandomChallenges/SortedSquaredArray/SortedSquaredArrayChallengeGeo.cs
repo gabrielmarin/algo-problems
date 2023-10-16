@@ -18,6 +18,8 @@
             {
                 SortedSquaredArray[i] = SortedArray[i] * SortedArray[i];
             }
+
+            Array.Sort(SortedSquaredArray);
         }
     }
 }

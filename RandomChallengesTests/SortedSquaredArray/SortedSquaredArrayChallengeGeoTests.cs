@@ -16,13 +16,14 @@ namespace RandomChallengesTests.SortedSquaredArray
         [InlineData(new[] { -2, -1 }, new[] { 1, 4 })]
         [InlineData(new[] { -5, -4, -3, -2, -1 }, new[] { 1, 4, 9, 16, 25 })]
         [InlineData(new[] { -10, -5, 0, 5, 10 }, new[] { 0, 25, 25, 100, 100 })]
-        [InlineData(new[] { -7, -3, 1, 9, 22, 30 }, new[] { 1, 9, 9, 49, 484, 900 })]
+        [InlineData(new[] { -7, -3, 1, 9, 22, 30 }, new[] { 1, 9, 49, 484, 900 })]
         [InlineData(new[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, new[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 })]
         [InlineData(new[] { -1, -1, 2, 3, 3, 3, 4 }, new[] { 1, 1, 4, 9, 9, 9, 16 })]
         public void ComputeArrayTest(int[] sortedArray, int[] squaredArray)
         {
             var arrayChallengeGeo = new SortedSquaredArrayChallengeGeo(sortedArray);
             arrayChallengeGeo.ComputeArray();
+            arrayChallengeGeo.SortedArray.Should().BeSameAs(sortedArray);
             arrayChallengeGeo.SortedSquaredArray.Should().ContainInOrder(squaredArray);
         }
     }

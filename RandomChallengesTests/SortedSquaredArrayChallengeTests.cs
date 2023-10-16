@@ -1,6 +1,6 @@
 namespace RandomChallengesTests
 {
-    public class UnitTest1
+    public class SortedSquaredArrayChallengeTests
     {
         [Fact]
         public void Test1()

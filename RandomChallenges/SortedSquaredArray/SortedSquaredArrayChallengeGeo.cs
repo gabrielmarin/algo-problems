@@ -1,4 +1,4 @@
-﻿namespace RandomChallenges
+﻿namespace RandomChallenges.SortedSquaredArray
 {
     public class SortedSquaredArrayChallengeGeo
     {

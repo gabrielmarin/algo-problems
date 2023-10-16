@@ -16,17 +16,21 @@
         
         public static int[] SortedSquaredArrayEfficientWay(int[] inputArray)
         {
-            //-10, -5, 0, 5, 10
-            //
-            
             var resultArray = new int[inputArray.Length];
-            var j = inputArray.Length - 1;
-            for (var i = 0; i < inputArray.Length; i++)
+            var upperBoundIndex = inputArray.Length-1;
+            var lowerBoundIndex = 0;
+            for(var i = inputArray.Length-1; i >= 0; i--)
             {
-                resultArray[i] = inputArray[i] * inputArray[i];
-            }
+                if (Math.Abs(inputArray[upperBoundIndex]) >= Math.Abs(inputArray[lowerBoundIndex]))
+                {
+                    resultArray[i] = inputArray[upperBoundIndex] * inputArray[upperBoundIndex];
+                    upperBoundIndex--;
+                    continue;
+                }
 
-            Array.Sort(resultArray);
+                resultArray[i] = inputArray[lowerBoundIndex] * inputArray[lowerBoundIndex];
+                lowerBoundIndex++;
+            }
             return resultArray;
         }
     }

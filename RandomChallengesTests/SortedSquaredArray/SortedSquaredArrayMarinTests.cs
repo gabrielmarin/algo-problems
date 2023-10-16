@@ -21,7 +21,8 @@ public class SortedSquaredArrayMarinTests
     [InlineData(new[] { -1, -1, 2, 3, 3, 3, 4 }, new[] { 1, 1, 4, 9, 9, 9, 16 })]
     public void ShouldReturnBasicSquaredArray(int[] inputArray, int[] expectedResultArray)
     {
-        var result = SortedSquaredArrayMarin.SortedSquaredArrayEasyWay(inputArray);
+        // var result = SortedSquaredArrayMarin.SortedSquaredArrayEasyWay(inputArray);
+        var result = SortedSquaredArrayMarin.SortedSquaredArrayEfficientWay(inputArray);
         result.Should().ContainInOrder(expectedResultArray);
     }
 }

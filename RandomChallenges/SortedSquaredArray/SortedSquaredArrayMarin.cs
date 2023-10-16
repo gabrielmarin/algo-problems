@@ -9,7 +9,8 @@
             {
                 resultArray[i] = inputArray[i] * inputArray[i];
             }
-            
+
+            Array.Sort(resultArray);
             return resultArray;
         }
     }

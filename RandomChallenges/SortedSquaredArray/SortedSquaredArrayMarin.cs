@@ -4,7 +4,13 @@
     {
         public static int[] SortedSquaredArray(int[] inputArray)
         {
-            return Array.Empty<int>();
+            var resultArray = new int[inputArray.Length];
+            for (var i = 0; i < inputArray.Length; i++)
+            {
+                resultArray[i] = inputArray[i] * inputArray[i];
+            }
+            
+            return resultArray;
         }
     }
 }

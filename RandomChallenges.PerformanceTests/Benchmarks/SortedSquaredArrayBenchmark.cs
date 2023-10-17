@@ -1,7 +1,7 @@
 ﻿using BenchmarkDotNet.Attributes;
 using RandomChallenges.SortedSquaredArray;
 
-namespace RandomChallenges.PerformanceTests;
+namespace RandomChallenges.PerformanceTests.Benchmarks;
 
 [MemoryDiagnoser]
 public class SortedSquaredArrayBenchmark

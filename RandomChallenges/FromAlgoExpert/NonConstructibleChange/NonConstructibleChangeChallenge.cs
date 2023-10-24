@@ -1,4 +1,4 @@
-﻿namespace RandomChallenges.NonConstructibleChange;
+﻿namespace RandomChallenges.FromAlgoExpert.NonConstructibleChange;
 
 public class NonConstructibleChangeChallenge
 {

@@ -1,5 +1,5 @@
 ﻿using FluentAssertions;
-using RandomChallenges.TwoNumberSum;
+using RandomChallenges.FromAlgoExpert.TwoNumberSum;
 
 namespace RandomChallengesTests.TwoNumberSum;
 

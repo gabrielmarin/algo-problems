@@ -1,5 +1,5 @@
 ﻿using FluentAssertions;
-using RandomChallenges.TournamentWinner;
+using RandomChallenges.FromAlgoExpert.TournamentWinner;
 
 namespace RandomChallengesTests.TournamentWinner;
 

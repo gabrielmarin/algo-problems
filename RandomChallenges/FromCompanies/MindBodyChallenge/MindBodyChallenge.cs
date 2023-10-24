@@ -1,4 +1,4 @@
-﻿namespace RandomChallenges.MindBodyChallenge;
+﻿namespace RandomChallenges.FromCompanies.MindBodyChallenge;
 //inputMessage, maxLength, expectedResult
 //And now here is my secret, 15, "And now ..."
 //There is an animal with four legs, 15, "There is an ..."

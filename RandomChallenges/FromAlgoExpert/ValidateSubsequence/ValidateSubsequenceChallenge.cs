@@ -1,4 +1,4 @@
-﻿namespace RandomChallenges.ValidateSubsequence;
+﻿namespace RandomChallenges.FromAlgoExpert.ValidateSubsequence;
 
 public class ValidateSubsequenceChallenge
 {

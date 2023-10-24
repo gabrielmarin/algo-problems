@@ -1,4 +1,4 @@
-﻿namespace RandomChallenges.TwoNumberSum;
+﻿namespace RandomChallenges.FromAlgoExpert.TwoNumberSum;
 
 public static class TwoNumberSumChallenge
 {

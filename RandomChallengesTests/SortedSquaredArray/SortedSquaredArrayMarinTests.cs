@@ -1,5 +1,5 @@
 ﻿using FluentAssertions;
-using RandomChallenges.SortedSquaredArray;
+using RandomChallenges.FromAlgoExpert.SortedSquaredArray;
 
 namespace RandomChallengesTests.SortedSquaredArray;
 

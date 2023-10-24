@@ -1,4 +1,4 @@
-﻿namespace RandomChallenges.SortedSquaredArray
+﻿namespace RandomChallenges.FromAlgoExpert.SortedSquaredArray
 {
     public class SortedSquaredArrayChallengeGeo
     {

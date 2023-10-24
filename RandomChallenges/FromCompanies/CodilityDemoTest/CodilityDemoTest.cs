@@ -1,4 +1,4 @@
-﻿namespace RandomChallenges.CodilityDemoTest;
+﻿namespace RandomChallenges.FromCompanies.CodilityDemoTest;
 
 
 // This is a demo task.

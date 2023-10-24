@@ -1,5 +1,5 @@
 ﻿using BenchmarkDotNet.Attributes;
-using RandomChallenges.SortedSquaredArray;
+using RandomChallenges.FromAlgoExpert.SortedSquaredArray;
 
 namespace RandomChallenges.PerformanceTests.Benchmarks;
 

@@ -1,5 +1,5 @@
 ﻿using FluentAssertions;
-using RandomChallenges.ValidateSubsequence;
+using RandomChallenges.FromAlgoExpert.ValidateSubsequence;
 
 namespace RandomChallengesTests.ValidateSubsequence;
 

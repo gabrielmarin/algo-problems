@@ -1,6 +1,6 @@
 ﻿using FluentAssertions;
 using RandomChallenges;
-using RandomChallenges.MindBodyChallenge;
+using RandomChallenges.FromCompanies.MindBodyChallenge;
 
 namespace RandomChallengesTests.MindBodyChallenge;
 

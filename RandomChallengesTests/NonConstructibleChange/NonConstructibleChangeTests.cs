@@ -1,5 +1,5 @@
 ﻿using FluentAssertions;
-using RandomChallenges.NonConstructibleChange;
+using RandomChallenges.FromAlgoExpert.NonConstructibleChange;
 
 namespace RandomChallengesTests.NonConstructibleChange;
 

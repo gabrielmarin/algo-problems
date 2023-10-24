@@ -1,4 +1,4 @@
-﻿namespace RandomChallenges.TournamentWinner;
+﻿namespace RandomChallenges.FromAlgoExpert.TournamentWinner;
 
 public class TournamentWinnerChallenge
 {

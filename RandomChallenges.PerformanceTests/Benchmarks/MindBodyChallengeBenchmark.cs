@@ -1,5 +1,5 @@
 ﻿using BenchmarkDotNet.Attributes;
-using RandomChallenges.MindBodyChallenge;
+using RandomChallenges.FromCompanies.MindBodyChallenge;
 
 namespace RandomChallenges.PerformanceTests.Benchmarks;
 
